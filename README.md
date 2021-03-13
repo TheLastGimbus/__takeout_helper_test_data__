@@ -3,11 +3,15 @@
 ## What is this?
 This is the repo that contains images for testing [GooglePhotosTakeoutHelper script](https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper/)
 
-## The rules
+## The rules of adding new files
 ALL photos and videos MUST have all of their expected properties fully tested. That is, if you upload a .jpg here that
 is expected to contain some location data (either from json or itself), you *have* to add both location test in
 [asserts/exif_location.json](asserts/exif_location.json), as well as [file modified](asserts/file_modified.json),
 [exif date](asserts/exif_dates.json) and [file hash](asserts/file_hash.json).
+
+Note: the script changes the files *inside the input folder* - yeah, it sucks and shouldn't be like this, but it is :/
+So, when committing them, make sure you commit *the original ones form takeout*, and *not* when they were already
+modified by script
 
 ## Versioning
 We version everything with a tag here. Then, in the original repo, if you want to update to new set of photos
