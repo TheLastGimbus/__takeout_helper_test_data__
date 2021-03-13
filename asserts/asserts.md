@@ -37,13 +37,11 @@ Output file correct "last modified value"
 ```
 
 ### `file_hash.json`
-Output file hash
+SHA1 hash of output photos
 
-This applies only to videos/files without exif, as modifying exif will also change the hash
-
-Or, if you want to add hash to `.jpg` photos too, you need to collect their hash *after* script handles them
+Because of exif values that change inside the file, you need to collect it *after* files came through the script
 ```json
-"video12.webp": "fjdsfoweirndfsjgdfhngsda"  // The hash
+"video12.webp": "fjdsfoweirndfsjgdfhngsda"  // The SHA1 hash
 ```
 
 ### `exif_dates.json`
