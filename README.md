@@ -9,14 +9,15 @@ is expected to contain some location data (either from json or itself), you *hav
 [asserts/exif_location.json](asserts/exif_location.json), as well as [file modified](asserts/file_modified.json),
 [exif date](asserts/exif_dates.json) and [file hash](asserts/file_hash.json).
 
-Note: the script changes the files *inside the input folder* - yeah, it sucks and shouldn't be like this, but it is :/
+## Note: 
+The script changes the files *inside the input folder* - yeah, it sucks and shouldn't be like this, but it is :/
 So, when committing them, make sure you commit *the original ones form takeout*, and *not* when they were already
-modified by script
+modified by script - `./reset-test-data` will may you :)
 
 ## Versioning
 We version everything with a tag here. Then, in the original repo, if you want to update to new set of photos
 to test on, you need to checkout on new version
 
-## TODO:
+#### TODO:
 I'm not certain if checking file hashes is fully good idea - if we change the way we write exifs in *any way*,
 almost all of them will fail (I think) - so I may remove them in future
