@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd "$(dirname "$0")" || exit 1
+echo "Working in folder $(pwd)"
+
+# Remove all outputs and restore input files to original state
+rm -r output/
+git reset --hard
+
+echo "Test data folder is fresh and clean!"
