@@ -1,0 +1,31 @@
+{
+  "title": "20160523_160519_HDR.jpg",
+  "description": "",
+  "imageViews": "106",
+  "creationTime": {
+    "timestamp": "1543502205",
+    "formatted": "29 lis 2018, 14:36:45 UTC"
+  },
+  "modificationTime": {
+    "timestamp": "1578278714",
+    "formatted": "6 sty 2020, 02:45:14 UTC"
+  },
+  "geoData": {
+    "latitude": 49.218322,
+    "longitude": 22.633484,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "photoTakenTime": {
+    "timestamp": "-844567917",
+    "formatted": "28 mar 1943, 09:48:03 UTC"
+  }
+}
